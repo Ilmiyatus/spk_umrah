@@ -133,7 +133,7 @@ require_once('template-parts/header.php');
 					<div class="field-wrap clearfix">					
 						<label>Role</label>
 						<select name="role">
-							<option value="2" <?php selected($role, 2); ?>>Petugas</option>
+							<option value="2" <?php selected($role, 2); ?>>Pengunjung</option>
 							<option value="1" <?php selected($role, 1); ?>>Administrator</option>						
 						</select>
 					</div>

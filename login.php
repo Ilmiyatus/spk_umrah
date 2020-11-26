@@ -31,7 +31,7 @@ if(isset($_POST['submit'])):
 				$_SESSION["role"] = $user["role"];
 				$user_role = get_role();
 				if($user_role == 'admin')
-					redirect_to("list-kriteria.php");
+					redirect_to("ranking-topsis.php");
 				if($user_role == 'pengunjung')
 					redirect_to("ranking.php");
 			} else {

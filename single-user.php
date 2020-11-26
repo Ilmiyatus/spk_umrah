@@ -54,9 +54,9 @@ require_once('template-parts/header.php');
 				<h4>Role</h4>
 				<p><?php
 				if($result['role'] == 1) {
-					echo 'Administrator';
+					echo 'admin';
 				} elseif($result['role'] == 2) {
-					echo 'Petugas';
+					echo 'pengunjung';
 				}
 				?></p>
 			

@@ -41,9 +41,9 @@ include_once('template-parts/sidebar-user.php');
 					<td>
 					<?php
 					if($hasil['role'] == 1) {
-						echo 'Administrator';
+						echo 'admin';
 					} elseif($hasil['role'] == 2) {
-						echo 'Petugas';
+						echo 'pengunjung';
 					}
 					?>
 					</td>

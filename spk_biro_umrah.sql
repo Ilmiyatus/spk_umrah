@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2020 at 02:41 PM
+-- Generation Time: Nov 26, 2020 at 04:51 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.1.33
 
@@ -203,8 +203,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `username`, `password`, `nama`, `email`, `alamat`, `role`) VALUES
-(1, 'admin', 'admin', 'Okta Chandika Salsabila', 'chandika.salsabila@gmail.com', 'Jl. Kesumba Dalam 16 Jatimulyo Lowokwaru', '1'),
-(11, 'pengunjung', 'pengunjung', 'Diah Ayu Ratna', 'diahayukusuma@gmail.com', 'Malang', '2');
+(1, 'admin', 'admin', 'admin', 'admin@gmail.com', 'Malang', '1'),
+(11, 'pengunjung', 'pengunjung', 'pengunjung', 'pengunjung@gmail.com', 'Malang', '2');
 
 --
 -- Indexes for dumped tables
@@ -276,7 +276,7 @@ ALTER TABLE `pilihan_kriteria`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id_user` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_user` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- Constraints for dumped tables

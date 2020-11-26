@@ -31,7 +31,6 @@
 							<li><a href="list-kriteria.php">Kriteria</a></li>
 							<li><a href="list-biro-umrah.php">Biro Umrah</a></li>
 							<li><a href="ranking-topsis.php">Rank TOPSIS</a>
-							<li><a href="ranking-saw.php">Rank SAW</a>
 							</li>
 						<?php endif; ?>
 						<?php if($user_role == 'pengunjung'): ?>

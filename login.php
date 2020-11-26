@@ -57,7 +57,7 @@ require_once('template-parts/header.php');
 	<br>
 	<center>
 	<h1><b><font size="4">SISTEM PENDUKUNG KEPUTUSAN PEMILIHAN BIRO PERJALANAN UMROH</font></h1>
-	<h1><b><font size="4">MENGGUNAKAN METODE TOPSIS DAN SAW<font></h1>
+	<h1><b><font size="4">MENGGUNAKAN METODE TOPSIS<font></h1>
 	</center>
 		<div class="main-content the-content">
 			<h1>Log in</h1>

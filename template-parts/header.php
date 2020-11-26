@@ -28,13 +28,14 @@
 					<ul class="sf-menu">
 						<?php $user_role = get_role(); ?>
 						<?php if($user_role == 'admin'): ?>
+							<li><a href="list-user.php">User</a></li>		
 							<li><a href="list-kriteria.php">Kriteria</a></li>
 							<li><a href="list-biro-umrah.php">Biro Umrah</a></li>
 							<li><a href="ranking-topsis.php">Rank TOPSIS</a>
 							</li>
 						<?php endif; ?>
 						<?php if($user_role == 'pengunjung'): ?>
-							<li><a href="ranking.php" style="color:transparent">Rangking</a>
+							<li><a href="ranking.php" style="color:transparent">Ranking</a>
 						<?php endif; ?>
 					</ul>
 				</nav>
